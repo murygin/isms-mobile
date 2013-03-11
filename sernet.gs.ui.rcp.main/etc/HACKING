@@ -2,6 +2,7 @@
 # 2009-11-09 akoderman added instructions for JSF, workaround for additional
 #       plugin folder and Tomcat6
 # 2010-05-08 akoderman added some more hints to deal with problems
+# 2013-03-08 dmurygin new target plattform: verinice-tp-eclipse-3.7
 
 This document describes how to set up verinice for development. It assumes
 that you are using Eclipse and are familiar with this IDE.
@@ -59,14 +60,14 @@ Eclipse IDE:
  
  - check out all projects from trunk except target-platform
  
- - check out target-platform/eclipse-3.5.2-rcp-sdk
+ - check out target-platform/verinice-tp-eclipse-3.7
  
  - close all projects (important)
 
-  - Eclipse 3.5:
+  - Eclipse 3.x:
     - go to Window/Preferences/Plug-In Development/Target Platform/
     - click 'Add' and 'Nothing: Start with an empty target definition'
-    - click on 'Add' and choose directory 'target-platform/eclipse-3.5.2-rcp-sdk' as location
+    - click on 'Add' and choose directory 'target-platform/verinice-tp-eclipse-3.7' as location
     - activate new target platform
  
  - open all projects, do a refresh on all projects
